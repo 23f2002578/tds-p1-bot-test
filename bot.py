@@ -1,9 +1,11 @@
+from dotenv import load_dotenv
+load_dotenv()
 import os, json
 from telegram import Update
 from telegram.ext import ApplicationBuilder, MessageHandler, ContextTypes, filters
 from agent import answer_question
 
-LOG_URL = os.environ["LOG_URL"]  # e.g. public URL to your hosted run.jsonl
+LOG_URL = os.environ["LOG_URL"]  
 
 async def handle(update: Update, context: ContextTypes.DEFAULT_TYPE):
     question = update.message.text
