@@ -1,0 +1,3 @@
+{"run_id": "639241a5-3849-415d-9cf3-63cee0696ddf", "type": "input", "question": "Hello", "ts": 1785413622.8142743}
+{"run_id": "5edd572c-4ed8-48f9-a262-74111c892425", "type": "input", "question": "Hello", "ts": 1785413736.8033617}
+{"run_id": "5edd572c-4ed8-48f9-a262-74111c892425", "type": "output", "response": "{\"message\":\"Hello! How can I assist you today?\"}", "ts": 1785413738.226857}
